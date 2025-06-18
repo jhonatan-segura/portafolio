@@ -7,3 +7,5 @@ Mis conocimientos son:
 - .NET 15
 - Python
 - Flutter/Dart
+- Java
+- C/C++
