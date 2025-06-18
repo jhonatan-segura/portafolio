@@ -11,13 +11,13 @@ export default function HomePage() {
       <div>
          <Header title="Jhonatan Segura" />
          <p>Acerca De Mi</p>
-         <p>Proyectos</p>
+         <a href='/proyectos'>Proyectos</a>
          <ul>
             {names.map((name) => (
                <li key={name}>{name}</li>
             ))}
          </ul>
-         <LikeButton />
+         {/* <LikeButton /> */}
       </div>
    );
 }
